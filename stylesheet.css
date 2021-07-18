@@ -19,11 +19,12 @@ body {
 
 
 .title {
-    font-size: 70px;
+    font-size: 50px;
     font-family: 'Encode Sans SC', sans-serif;
     color: white;
-    
+    text-align: center; 
 }
+
 
 .types,
 #menu {
@@ -38,10 +39,7 @@ body {
     
 }
 
-
-
-
-.drinks, .hours {
+div ul {
     border: 2px solid chocolate;
     padding: 0px 40px 40px 10px;
     font: bold 25px black;
@@ -50,10 +48,12 @@ body {
     background-color: white;
     opacity: 90%;
     border-radius: 10%;
+    text-align: center;
+    
 }
 
-ul.drinks,
-ul.hours {
+
+ul {
     list-style-type: none;
 }
 
@@ -71,9 +71,6 @@ ul.hours {
 }
 
 
-#bagels {
-    flex-grow: 2;
-}
 
 
 @media (min-width: 669px){
@@ -99,19 +96,36 @@ ul.hours {
         margin: 100px;
     }
 
-    .testing,
+    .hours,
     #menu {
         margin: 20px 100px 20px 100px;
         padding: 20px;
         text-align: center;
     }
 
-   .drinks {
-       flex-grow: 1;
+    div ul {
+        flex-grow: 1;
+    }
 
-   }
+    .title {
+        font-size: 70px;
+    }
+
+   
 } 
 
 
+@media (min-width: 1025px) {
+    .page-header,
+    .main-nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
 
+    ul li:nth-child(odd) {
+        background: chocolate;
+        color: white;
+    }
+}
 
