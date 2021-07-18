@@ -2,8 +2,7 @@ body {
     background-image: url(mountains.png);
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: fixed;
-  
+    background-attachment: fixed;  
 }
 
 
@@ -73,6 +72,9 @@ ul {
 
 
 
+
+
+
 @media (min-width: 669px){
     .page-header,
     .main-nav {
@@ -111,21 +113,16 @@ ul {
         font-size: 70px;
     }
 
-   
 } 
 
 
-@media (min-width: 1025px) {
+
+@media (min-width: 1025px){
     .page-header,
     .main-nav {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-    }
-
-    ul li:nth-child(odd) {
-        background: chocolate;
-        color: white;
     }
 }
 
