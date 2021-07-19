@@ -73,12 +73,22 @@ ul {
     width: 200px;
     height: 200px;
     border-radius: 50%;
+    float: left;
+    margin: 10px 20px;
 }
 
 
+p {
+    font: bold 20px black;
+    font-family: 'Encode Sans SC', sans-serif; ;
+}
 
-
-
+@media screen and (max-width: 500px) {
+    ul li:nth-child(odd) {
+        background: chocolate;
+        color: white;
+    }
+}
 
 @media (min-width: 669px){
     .page-header,
