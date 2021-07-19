@@ -5,8 +5,12 @@ body {
     background-attachment: fixed;  
 }
 
+main {
+    align-items: center;
+}
 
-.filler {
+
+.intro {
     font-family: 'Encode Sans SC', sans-serif;
     font: 20px black;
     border: 2px solid chocolate;
@@ -17,7 +21,7 @@ body {
 }
 
 
-.title {
+h1 {
     font-size: 50px;
     font-family: 'Encode Sans SC', sans-serif;
     color: white;
@@ -25,8 +29,7 @@ body {
 }
 
 
-.types,
-#menu {
+h2 {
     border: 2px solid chocolate;
     padding: 10px;
     font: bold 40px black;
@@ -35,7 +38,6 @@ body {
     margin: 50px 10px 10px 50px;
     background-color: white;
     opacity: 90%;
-    
 }
 
 div ul {
@@ -48,7 +50,6 @@ div ul {
     opacity: 90%;
     border-radius: 10%;
     text-align: center;
-    
 }
 
 
@@ -59,13 +60,12 @@ ul {
 .fox {
     width: 200px;
     height: 200px;
-    border-radius: 25%;
-    
+    border-radius: 25%;  
 }
 
 .coffee {
-    width: 400px;
-    height: 400px;
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
 }
 
@@ -94,22 +94,21 @@ ul {
         padding: 20px;
     }
 
-    .filler {
-        margin: 100px;
-    }
+    
 
     .hours,
-    #menu {
+    .intro {
         margin: 20px 100px 20px 100px;
-        padding: 20px;
-        text-align: center;
+        padding: 20px;   
     }
+
+    
 
     div ul {
         flex-grow: 1;
     }
 
-    .title {
+    h1 {
         font-size: 70px;
     }
 
