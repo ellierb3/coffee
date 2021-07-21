@@ -1,7 +1,13 @@
+const suggest = document.querySelector('#suggest');
+
+suggest.onclick = function () {
+    let question =prompt('Got a crazy suggestion? Let us know!');
+    alert('You suggested ' + question + '! Check back for menu updates soon!');
+}
 
 
 
-
+const happy = document.querySelector('#happy');
 
 function changeImage() {
     var image = document.getElementById("questionmark");
@@ -10,20 +16,9 @@ function changeImage() {
     } else {
         image.src = "happycoffee.png";
     }
+    happy.textContent = 'Coffee makes us happy!';
 }
 
-
-
-
-
-
-const suggest = document.querySelector('#suggest');
-const heading = document.querySelector('#heading');
-suggest.onclick = function () {
-    let question =prompt('Menu suggestion? Let us know below!');
-    alert('You suggested ' + question + '! Check back for menu updates soon!');
-    heading.textContent = 'Thanks for your input';
-}
 
 
 

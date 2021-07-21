@@ -60,7 +60,8 @@ h3, h4 {
     font-family: fantasy;
 }
 
-div ul {
+div ul,
+section {
     border: 2px solid chocolate;
     padding: 0px 40px 40px 10px;
     font: bold 25px black;
@@ -77,11 +78,7 @@ ul {
     list-style-type: none;
 }
 
-.fox {
-    width: 200px;
-    height: 200px;
-    border-radius: 25%;  
-}
+
 
 .coffee {
     width: 200px;
