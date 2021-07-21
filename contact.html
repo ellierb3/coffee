@@ -53,20 +53,20 @@
 
 
 <div class="container">
-  <form id="form">
+  <form action="#" id="form" onsubmit="submitformpls();return false">
     <label>Name</label>  
     <label for="Name"></label>  
     <input type="text" id="name">
-    <br>
+    
     <label>Email</label>
-    <input type="email" id="email">
-    <div id="missing">
-      
-    </div>
-    <button type="submit">Click here</button>
+    <input type="email" id="email" required>
+    <input type="submit" id="submitformpls">
   </form>
 </div>
 
+
+<button type="submit" id="submitform">Click here</button>
+<br>
 
 
 <button id="suggest">Click here to add menu suggestions!</button>

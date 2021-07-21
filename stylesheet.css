@@ -109,16 +109,35 @@ p {
 footer {
     background: chocolate;
     padding: 20px 100px;
-    margin-top: auto;
+    margin-top: 30px;
     text-align: center;
 }
+
+
+#guessinggame {
+    background: rgb(105, 194, 132);
+    font: black 20px;
+    text-align: center;
+    padding: 20px 10px;
+    border: white dotted 4px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    
+}
+
+
+
 
 @media screen and (max-width: 500px) {
    #menu ul li:nth-child(odd) {
         background: chocolate;
         color: white;
     }
+    
 }
+
+
+
 
 @media (min-width: 669px){
     .page-header,
@@ -156,7 +175,13 @@ footer {
         font-size: 70px;
     }
 
+
+    #guessinggame {
+        display: none;
+    }
 } 
+
+
 
 
 
