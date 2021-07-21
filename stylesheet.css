@@ -126,6 +126,22 @@ footer {
 }
 
 
+#picturechange,
+#suggestion {
+    text-align: center;
+}
+
+#suggest {
+    padding: 10px;
+    font: 10px;
+    box-shadow: inset 0 0 5px 5px olive;
+}
+
+
+
+
+
+
 
 
 @media screen and (max-width: 500px) {
@@ -136,7 +152,11 @@ footer {
     
 }
 
-
+@media screen and (max-width: 550px) {
+    #guessinggame {
+        display: none;
+    }
+}
 
 
 @media (min-width: 669px){
@@ -176,9 +196,7 @@ footer {
     }
 
 
-    #guessinggame {
-        display: none;
-    }
+    
 } 
 
 
@@ -192,5 +210,7 @@ footer {
         flex-direction: row;
         justify-content: space-between;
     }
+
+    
 }
 

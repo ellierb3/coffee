@@ -1,12 +1,4 @@
-yes.onclick = function () {
-    alert('Thats the right answer!');
-    displaybox.textContent = 'YAY!';
-}
 
-no.onclick = function () {
-    alert('oh no..no..that just wont do..')
-    displaybox2.textContent = ':(';
-}
 
 
 
@@ -22,29 +14,14 @@ function changeImage() {
 
 
 
-submit.onclick = function() {
-    alert('Testing');
-}
 
-submitform.onclick = function() {
-    alert('Thanks for signing up for our Newsletter');
-}
-
-
-function submitformpls() {
-    var x = document.getElementById("email").required;
-  }
-
-submitformpls.onclick = function() {
-      alert("Git it!");
-  }
 
 
 const suggest = document.querySelector('#suggest');
 const heading = document.querySelector('#heading');
 suggest.onclick = function () {
-    let question =prompt('What should we add to the menu?');
-    alert('You suggested ' + question + ', check back for menu updates soon!');
+    let question =prompt('Menu suggestion? Let us know below!');
+    alert('You suggested ' + question + '! Check back for menu updates soon!');
     heading.textContent = 'Thanks for your input';
 }
 
@@ -58,7 +35,7 @@ function bagel() {
         text = "Yes! Blueberry is the best seller!";
     }
     else if (bageltype === "cinnamon raisin"|| bageltype === "everything"){
-        text = "Good try but nope!";
+        text = "Good try but not quite!";
     }
     else {
         text = "Hey that wasnt an option.."
@@ -66,3 +43,4 @@ function bagel() {
     document.getElementById("tester").innerHTML = text;
 
 }
+
