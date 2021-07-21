@@ -19,3 +19,18 @@ function changeImage() {
         image.src = "happycoffee.png";
     }
 }
+
+
+
+submit.onclick = function() {
+    alert('Testing');
+}
+
+
+const suggest = document.querySelector('#suggest');
+const heading = document.querySelector('#heading');
+suggest.onclick = function () {
+    let question =prompt('What should we add to the menu?');
+    alert('You suggested ' + question + ', check back for menu updates soon!');
+    heading.textContent = 'Thanks for your input';
+}
