@@ -34,6 +34,17 @@ a:link {
 }
 
 
+.coffee {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    float: left;
+    margin: 10px 20px;
+}
+
+
+/*-----Four major text styles----*/
+
 h1 {
     font-size: 50px;
     font-family: 'Encode Sans SC', sans-serif;
@@ -51,14 +62,22 @@ h2 {
     margin: 50px 10px 10px 50px;
     background-color: white;
     opacity: 90%;
-    
 }
 
-h3, h4 {
-    font: 40px white;
+h3 {
+    font-size: 40px;
     text-align: center;
-    font-family: fantasy;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 20px;
 }
+
+p {
+    font: bold 18px black;
+    font-family: 'Encode Sans SC', sans-serif; 
+}
+
+
+/*-----Major part of page after intro---*/
 
 div ul,
 section {
@@ -79,28 +98,10 @@ ul {
 }
 
 
-
-.coffee {
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    float: left;
-    margin: 10px 20px;
-}
-
-
-p {
-    font: bold 18px black;
-    font-family: 'Encode Sans SC', sans-serif; 
-}
-
-
-
 .menu,
 .hours {
     min-width: 250px;
 }
-
 
 
 footer {
@@ -110,6 +111,7 @@ footer {
     text-align: center;
 }
 
+/*-------CSS for second page on website contact dot html-----*/
 
 #guessinggame {
     background: rgb(105, 194, 132);
@@ -123,10 +125,6 @@ footer {
 }
 
 
-#picturechange,
-#suggestion {
-    text-align: center;
-}
 
 #suggest {
     padding: 10px;
@@ -137,7 +135,7 @@ footer {
 
 
 
-
+/*----------------Media queries--------------------*/
 
 
 
@@ -145,8 +143,7 @@ footer {
    #menu ul li:nth-child(odd) {
         background: chocolate;
         color: white;
-    }
-    
+    } 
 }
 
 @media screen and (max-width: 550px) {
@@ -175,14 +172,11 @@ footer {
         padding: 20px;
     }
 
-    
-
     .hours,
     .intro {
         margin: 20px 100px 20px 100px;
         padding: 20px;   
     }
-
 
     div ul {
         flex-grow: 1;
@@ -190,14 +184,8 @@ footer {
 
     h1 {
         font-size: 70px;
-    }
-
-
-    
+    }  
 } 
-
-
-
 
 
 @media (min-width: 1025px){
@@ -206,8 +194,6 @@ footer {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-    }
-
-    
+    } 
 }
 
