@@ -72,7 +72,7 @@ h3 {
 }
 
 p {
-    font: bold 18px black;
+    font: bold 14px black;
     font-family: 'Encode Sans SC', sans-serif; 
     padding: 5px 20px;
 }
@@ -187,6 +187,10 @@ footer {
     h1 {
         font-size: 70px;
     }  
+
+    p {
+        font-size: 18px;
+    }
 } 
 
 
