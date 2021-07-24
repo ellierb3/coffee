@@ -28,10 +28,10 @@ function changeImage() {
 //function for main page guessing game
 
 function bagel() {
-    var bageltype = document.getElementById("guessWhich").value;
+    var bageltype = document.getElementById("guessWhich").value.toLowerCase();
     var text;
 
-    if (bageltype === "blueberry"|| bageltype === "Blueberry"){
+    if (bageltype === "blueberry"){
         text = "Yes! Blueberry is the best seller!";
     }
     else if (bageltype === "cinnamon raisin"|| bageltype === "everything"){
