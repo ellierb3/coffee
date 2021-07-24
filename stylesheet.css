@@ -16,7 +16,9 @@ main {
 .main-nav li {
     font: bold 14px black;
     font-family: 'Encode Sans SC', sans-serif; 
+    background: white;
     padding: 4px;
+    margin: 4px;
 }
 
 a:link {
