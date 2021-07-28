@@ -1,8 +1,8 @@
-##Purpose
+## Purpose
 For my project I created a website for a coffee shop that I have called "Nowhere-ville Coffee Co". The 3 features that I chose to use were: flexbox, ":nth-child", and javascript function that calculates something and displays it back on the page. 
-##CSS Features
+## CSS Features
 For my media query that targets tablets I have applied a flexbox property to wrap the div "#menu" while setting the ".page-header" flex-direction to column. For my media query that targets larger screens I have the div "#menu" and ".page-header" set to row. 
 For my ":nth-child" feature I chose to target the unordered list "#menu". I used this feature to display every other list item with a different background color. This is viewable for mobile view only and is specified in my media query for screens with max-width of 500px. 
-##Javascript Functions
+## Javascript Functions
 For my javascript requirement I chose to do a suggestion box that takes the user's menu suggestion and displays it back as an alert. This function can be accessed by clicking the "leave a suggestion" link in the main navigation bar. Once on that page, the user is able to press the button "click here" which generates an alert box for the user to enter a unique menu request. Once submitted, an alert box displays with a message returning that unique request.
 I chose to use two more javascript functions. One I used is in the div "#guessinggame" which allows the user guess which type of bagel is the most sold. This is accessible while on the main page, "index.html", with screens larger than 550px. The other javascript function can be located by clicking the "leave a suggestion" link in the main navigation bar. I used the changeImage() function to display a different image once the picture is clicked on.
