@@ -1,5 +1,6 @@
+# Nowhere-Ville Coffee Co.
 ## Purpose
-For my project I created a website for a coffee shop that I have called "Nowhere-ville Coffee Co". The 3 features that I chose to use were: flexbox, ":nth-child", and javascript function that calculates something and displays it back on the page. 
+For my project I created a website for a coffee shop that I have called "Nowhere-ville Coffee Co". The 3 features that I chose to use were: flexbox, ":nth-child", and javascript function that calculates something and displays it back on the page. The website can be viewed by going to https://ellierb3.github.io/coffee/.
 ## CSS Features
 For my media query that targets tablets I have applied a flexbox property to wrap the div "#menu" while setting the ".page-header" flex-direction to column. For my media query that targets larger screens I have the div "#menu" and ".page-header" set to row. 
 For my ":nth-child" feature I chose to target the unordered list "#menu". I used this feature to display every other list item with a different background color. This is viewable for mobile view only and is specified in my media query for screens with max-width of 500px. 
